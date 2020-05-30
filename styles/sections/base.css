@@ -1,0 +1,44 @@
+.base {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 150px;
+}
+
+.base .base-caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.base .base-caption .caption {
+  font-family: a_FuturaRoundDemi;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+.base .base-caption .caption h1 {
+  color: #EC5F72;
+}
+
+.base .base-caption .caption .description h2 {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+  font-size: 50px;
+}
+/*# sourceMappingURL=base.css.map */
